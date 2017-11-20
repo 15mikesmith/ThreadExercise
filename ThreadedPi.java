@@ -12,6 +12,8 @@ public class ThreadedPi {
 
     public static void main(String[] args) throws InterruptedException {
 
+        
+        //Argument 1 is num threads and Argument is the amount of iterations
 
         long threads = Long.parseLong(args[0]);
         long iterations = Long.parseLong(args[1]);
